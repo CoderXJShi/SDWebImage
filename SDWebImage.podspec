@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.source_files = 'SDWebImage/Core/*.{h,m}', 'WebImage/SDWebImage.h', 'SDWebImage/Private/*.{h,m}'
-    core.private_header_files = 'SDWebImage/Private/*.h'
+#     core.private_header_files = 'SDWebImage/Private/*.h'
   end
 
   s.subspec 'MapKit' do |mk|
